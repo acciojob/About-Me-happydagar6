@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <!-- Profile Header -->
+            <div class="profile-header">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+                <h1 id="nameDisplay">John Doe</h1>
+                <p class="headline">Full Stack Developer</p>
+            </div>
 
+            <!-- Name Section -->
+            <section class="profile-section">
+                <h2>Name</h2>
+                <p><i class="fas fa-user"></i> John Doe</p>
+            </section>
+
+            <!-- Email Section -->
+            <section class="profile-section">
+                <h2>Email</h2>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:john@example.com">john@example.com</a></p>
+            </section>
+
+            <!-- Profile Section -->
+            <section class="profile-section">
+                <h2>Profile</h2>
+                <div class="profile-badges">
+                    <span class="badge">Web Developer</span>
+                    <span class="badge">Designer</span>
+                    <span class="badge">Problem Solver</span>
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section class="profile-section">
+                <h2>About me</h2>
+                <p>Passionate full-stack developer with 3+ years of experience building scalable web applications. Strong foundation in JavaScript, React, and Node.js. Committed to writing clean, maintainable code and delivering excellent user experiences.</p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="profile-section">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Database Design</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
